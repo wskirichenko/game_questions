@@ -1,0 +1,26 @@
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
+
+
+body {
+	// font-family: 'Futura','Trebuchet MS',Arial,sans-serif;
+	// font-family: 'Muli', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	margin: 0;
+	* {
+		box-sizing: border-box;
+	}
+	h1, h2, h3 {
+		margin: 0;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	outline: none;
+}

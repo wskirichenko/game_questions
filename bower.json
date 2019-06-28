@@ -1,0 +1,24 @@
+{
+  "name": "Game questions",
+  "description": "Game",
+  "main": "index.html",
+  "authors": [
+    "WS-GAK"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Games"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "jq-router": "^4.3.0",
+    "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.0",
+		"particles.js": "^2.0.0"
+  }
+}

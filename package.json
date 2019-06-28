@@ -1,0 +1,45 @@
+{
+  "name": "Game-questions",
+  "version": "1.0.0",
+  "description": "Game for questions",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wskirichenko/game_questions.git"
+  },
+  "keywords": [
+    "Games"
+  ],
+  "author": "WS-GAK",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/wskirichenko/game_questions#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "compression": "^1.6.2",
+    "del": "^3.0.0",
+    "express": "^4.16.4",
+    "gulp-connect-ssi": "^0.4.0",
+    "gulp-file-include": "^2.0.1",
+    "jq-router": "^4.3.0",
+    "nodemon": "^1.18.7",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
