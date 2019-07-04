@@ -17,20 +17,3 @@
 }
 .phone-2 { animation: move-phone-2 17s infinite linear; }
 
-@keyframes move-phone-3 {
-	from, to {}
-	0% 	{ margin-left: 0; margin-top: 0}
-	33% { margin-top: 3rem; margin-left: -1rem;}
-	67% {  margin-top: -3rem; margin-left: 1rem; }
-	100% { margin-left: 0; margin-top: 0}
-}
-.phone-3 { animation: move-phone-3 10s infinite linear; }
-
-@keyframes move-phone-4 {
-	from, to {}
-	0% 	{ margin-left: 0; margin-top: 0}
-	33% { margin-top: 4rem; margin-left: 0rem;}
-	67% {  margin-top: -2rem; margin-left: 0rem; }
-	100% { margin-left: 0; margin-top: 0}
-}
-.phone-4 { animation: move-phone-4 18s infinite linear; }
